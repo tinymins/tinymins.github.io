@@ -1,1 +1,145 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TinyMins Lab</title><meta name="description" content="Projects and experiments by TinyMins"></head><body><main><h1>TinyMins Lab</h1><p>Projects and experiments by <a href="https://github.com/tinymins">TinyMins</a>.</p></main></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090b10">
+    <meta name="description" content="TinyMins 的项目、工具与实验作品集合。">
+    <link rel="canonical" href="https://lab.vmins.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TinyMins Lab">
+    <meta property="og:title" content="TinyMins Lab — Projects &amp; Experiments">
+    <meta property="og:description" content="TinyMins 的项目、工具与实验作品集合。">
+    <meta property="og:url" content="https://lab.vmins.com/">
+    <meta property="og:image" content="https://lab.vmins.com/og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="TinyMins Lab — Projects &amp; Experiments">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TinyMins Lab — Projects &amp; Experiments">
+    <meta name="twitter:description" content="TinyMins 的项目、工具与实验作品集合。">
+    <meta name="twitter:image" content="https://lab.vmins.com/og.png">
+    <title>TinyMins Lab — Projects &amp; Experiments</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="TinyMins Lab 首页">
+        <span class="brand-mark">V</span>
+        <span>VMINS / LAB</span>
+      </a>
+      <a class="github-link" href="https://github.com/tinymins">GitHub <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow"><span></span> Personal project space</div>
+        <h1>把奇怪的想法，<br><em>做成能用的东西。</em></h1>
+        <p class="hero-copy">这里收藏着我正在构建的工具、应用与长期实验。<br>Some are useful. Some are just fun. All are built with care.</p>
+        <div class="hero-bottom">
+          <a class="scroll-cue" href="#projects">探索项目 <span>↓</span></a>
+          <dl class="hero-stats">
+            <div><dt>05</dt><dd>Live projects</dd></div>
+            <div><dt>∞</dt><dd>Ideas in queue</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="section-heading">
+          <div>
+            <span class="section-index">01</span>
+            <h2>Selected projects</h2>
+          </div>
+          <p>持续进化中的作品集</p>
+        </div>
+
+        <article class="project-card featured" style="--accent: #91f6b5">
+          <div class="project-meta">
+            <span class="project-number">001</span>
+            <span class="project-status">Live</span>
+          </div>
+          <div class="project-body">
+            <div class="project-copy">
+              <p class="project-type">Game utility · TypeScript</p>
+              <h3>Chameleon<br>Server Scout</h3>
+              <p>为《变色龙》添加公开服务器名称搜索，让找到想加入的房间不再靠运气。</p>
+              <a class="repo-link" href="https://github.com/tinymins/chameleon-server-scout">View source ↗</a>
+            </div>
+            <a class="project-arrow" href="/chameleon-server-scout/" aria-label="打开 Chameleon Server Scout">↗</a>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card compact" style="--accent: #6fa8ff">
+            <div class="project-meta"><span>002</span><span class="project-status">Live</span></div>
+            <div class="card-orbit orbit-windows" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <div class="compact-copy">
+              <p class="project-type">Native app · Swift</p>
+              <h3>WinTaskbar<br>for macOS</h3>
+              <p>把熟悉的 Windows 任务栏、开始菜单、窗口预览与 Aero Peek 带到 macOS。</p>
+            </div>
+            <div class="project-actions">
+              <a class="repo-link" href="https://github.com/tinymins/WinTaskbar-for-macOS">Source ↗</a>
+              <a class="small-arrow" href="/WinTaskbar-for-macOS/" aria-label="打开 WinTaskbar for macOS">↗</a>
+            </div>
+          </article>
+
+          <article class="project-card compact" style="--accent: #ff8f62">
+            <div class="project-meta"><span>003</span><span class="project-status">Independent</span></div>
+            <div class="terminal-art" aria-hidden="true"><span>sempre</span><b>_</b></div>
+            <div class="compact-copy">
+              <p class="project-type">System utility · Rust</p>
+              <h3>Sempre</h3>
+              <p>跨平台代理核心生命周期管理器与服务守护程序，让复杂运行状态保持可控。</p>
+            </div>
+            <div class="project-actions">
+              <a class="repo-link" href="https://github.com/tinymins/sempre">Source ↗</a>
+              <a class="small-arrow" href="https://sempre.run/" aria-label="打开 Sempre 官网">↗</a>
+            </div>
+          </article>
+
+          <article class="project-card compact" style="--accent: #f5c862">
+            <div class="project-meta"><span>004</span><span class="project-status">Live</span></div>
+            <div class="seal-art" aria-hidden="true">茗</div>
+            <div class="compact-copy">
+              <p class="project-type">Game addon · Lua</p>
+              <h3>JX3MY</h3>
+              <p>《剑侠情缘网络版叁》茗伊插件集，一套持续维护的游戏体验增强工具。</p>
+            </div>
+            <div class="project-actions">
+              <a class="repo-link" href="https://github.com/tinymins/JX3MY">Source ↗</a>
+              <a class="small-arrow" href="/JX3MY/changelog.html" aria-label="打开 JX3MY 更新日志">↗</a>
+            </div>
+          </article>
+
+          <article class="project-card compact" style="--accent: #d49cff">
+            <div class="project-meta"><span>005</span><span class="project-status">Independent</span></div>
+            <div class="prose-art" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+            <div class="compact-copy">
+              <p class="project-type">Notes · TypeScript</p>
+              <h3>minrc.com</h3>
+              <p>关于开发、系统与折腾过程的个人记录。内容生长于 GitHub Issues。</p>
+            </div>
+            <div class="project-actions">
+              <a class="repo-link" href="https://github.com/tinymins/blog">Source ↗</a>
+              <a class="small-arrow" href="https://minrc.com/" aria-label="打开 minrc.com">↗</a>
+            </div>
+          </article>
+        </div>
+
+        <a class="all-projects" href="https://github.com/tinymins?tab=repositories">
+          <span>更多开源项目</span>
+          <span>Explore all repositories ↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 TinyMins · Shanghai</p>
+      <p>Built somewhere between curiosity and caffeine.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
